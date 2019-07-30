@@ -9,17 +9,19 @@ Below, I will point you towards the resources required to set up a Telegram or T
 ## Twitter 
 Setting up the Twitter bot worked more smoothly for me than Telegram. 
 
-First, install the `Twython` package with 
+1. Install the `Twython` package with 
+
     $ pip install twython
 
-Then, follow the steps as described [in this explanation](https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api) to get developer access and to get the required API tokens. 
+2. Follow the steps as described [in this explanation](https://projects.raspberrypi.org/en/projects/getting-started-with-the-twitter-api) to get developer access and to get the required API tokens. 
 
-Finally, save the tokens to `auth.py` if you want to run the example attached. Adhere to the variable names that are already set. 
+3. Save the tokens to `auth.py` if you want to run the example attached. Adhere to the variable names that are already set. 
 
 ## Telegram
 Telegram was a bit trickier to set up, mainly recovering the `chat_id`. I will elaborate on that later. 
 
-First, install `python-telegram-bot` with 
+First, install `python-telegram-bot` with
+
     $ pip install python-telegram-bot --upgrade
 
 Then, you have to message the BotFather [as described here](https://core.telegram.org/bots#6-botfather) to set up a new bot. 
