@@ -98,10 +98,10 @@ class TwitterBot(BaseBot):
     """
     Tweet messages live during training.
     """
-    def __init__(self, consumer_key=consumer_key,
-                 consumer_secret=consumer_secret,
-                 access_token=access_token,
-                 access_token_secret=access_token_secret,
+    def __init__(self, consumer_key,
+                 consumer_secret,
+                 access_token,
+                 access_token_secret,
                  freq=1, init_message=None):
         """
         For details on how to obtain twitter API
@@ -137,8 +137,8 @@ class TelegramBot(BaseBot):
     messages with information on
     training progress.
     """
-    def __init__(self, token=tele_token,
-                 chat_id=chat_id, freq=1,
+    def __init__(self, token,
+                 chat_id, freq=1,
                  init_message=None):
         """
         On details for how to obtain
