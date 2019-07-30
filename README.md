@@ -31,9 +31,7 @@ You will also receive a link to your bot similar as for the BotFather. If you cl
 3. Next, you need to obtain the `chat_id` of this conversation. Now this part proved a bit tricky for me. 
 Send a message to your bot from the phone that you want to use to monitor the model fitting. 
 This can in theory be done by messaging the bot once and then opening
-
-	https://api.telegram.org/bot<bot_token>_/getUpdates
-	
+`https://api.telegram.org/bot<bot_token>_/getUpdates`	
 where you replace `<bot_token>` by the token you got from the BotFather. For me, following this link at first displayed a link with a true request message but nothing else. 
 After approximately two hours, it displayed the messages that I sent to the bot and I could read the `id` field, as e.g. described [here.](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id). 
 However, I got a bit frustrated at this step because I initially could not see any reason why the `id` didn't show as described. Probably it is best to be a bit patient. 
