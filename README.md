@@ -28,7 +28,7 @@ Telegram was a bit trickier to set up, mainly recovering the `chat_id`. I will e
 Basically, you just need to message `/newbot` in the chat that pops up upon clicking [this link](https://telegram.me/botfather). BotFather will send you a token for your bot. Save this to `auth.py`. 
 You will also receive a link to your bot similar as for the BotFather. If you click it, a chat with your bot will start. 
 
-3. Next, you need to obtain the `chat_id` of this conversation. Now this part proved a bit tricky for me. 
+3. Next, you need to obtain the `chat_id` of the conversation with your bot. Now this part proved a bit tricky for me. 
 Send a message to your bot from the phone that you want to use to monitor the model fitting. 
 This can in theory be done by messaging the bot once and then opening
 `https://api.telegram.org/bot<bot_token>_/getUpdates`	
