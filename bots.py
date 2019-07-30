@@ -43,7 +43,7 @@ class BaseBot(Callback):
         """
         Send a message every freq epochs.
         If freq is None, no messages are sent
-        from here.
+        from here but only from on_train_end. 
         """
         self.epoch = epoch
         if self.freq is None:
